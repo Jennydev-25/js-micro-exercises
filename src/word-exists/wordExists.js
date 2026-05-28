@@ -1,3 +1,5 @@
 export function wordExists(str) {
-  return str.toLowerCase().includes('english');
+  const normalizedStr = str.toLowerCase();
+  const containsEnglish = normalizedStr.includes('english');
+  return containsEnglish;
 }
