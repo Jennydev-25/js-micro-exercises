@@ -14,7 +14,7 @@ Cada ejercicio aplica buenas prácticas reales: **ES Modules**, **TDD con Vitest
 
 ## 📚 Ejercicios
 
-### 01 · [Word Exists](./word-exists/)
+### 01 · [Word Exists](./src/word-exists/)
 
 Dada una cadena de texto de longitud arbitraria, determina si contiene la palabra **"English"** de forma insensible a mayúsculas/minúsculas.
 
