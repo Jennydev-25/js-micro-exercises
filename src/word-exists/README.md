@@ -96,7 +96,7 @@ Dos escenarios **BDD** con patrón **AAA** (Arrange · Act · Assert):
 
 | Caso positivo | Caso negativo | Todos en verde |
 |---|---|---|
-| ![Caso positivo](../../assets/imgs/word-exists/test-positive.png) | ![Caso negativo](../../assets/imgs/word-exists/test-negative.png) | _Pendiente_ |
+| ![Caso positivo](../../assets/imgs/word-exists/test-positive.png) | ![Caso negativo](../../assets/imgs/word-exists/test-negative.png) | ![Todos en verde](../../assets/imgs/word-exists/test-all.png) |
 
 ----------
 
