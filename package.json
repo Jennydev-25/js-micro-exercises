@@ -1,0 +1,24 @@
+{
+  "name": "js-micro-exercises",
+  "version": "1.0.0",
+  "description": "Colección de micro-ejercicios de JavaScript",
+  "homepage": "https://github.com/Jennydev-25/js-micro-exercises#readme",
+  "bugs": {
+    "url": "https://github.com/Jennydev-25/js-micro-exercises/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jennydev-25/js-micro-exercises.git"
+  },
+  "license": "ISC",
+  "author": "Jennydev-25",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test-w": "vitest",
+    "test-cover": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.7"
+  }
+}
