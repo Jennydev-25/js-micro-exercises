@@ -34,5 +34,13 @@ describe('reverseWords', () => {
     const result = reverseWords(str);
     expect(result).toBe(expected);
   });
+
+  // Caso 5 - cadena vacia o solo espacios
+  it('should return empty string when input is empty or only spaces', () => {
+    const str = '';
+    const expected = '';
+    const result = reverseWords(str);
+    expect(result).toBe(expected);
+  });
   
 });
