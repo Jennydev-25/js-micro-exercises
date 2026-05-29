@@ -11,4 +11,12 @@ describe('reverseWords', () => {
     expect(result).toBe(expected);
   });
 
+  // Caso 2 - puntuacion unida a la palabra
+  it('should keep punctuation attached to its word', () => {
+    const str = 'Hi There.';
+    const expected = 'There. Hi';
+    const result = reverseWords(str);
+    expect(result).toBe(expected);
+  });
+
 });
