@@ -19,4 +19,12 @@ describe('reverseWords', () => {
     expect(result).toBe(expected);
   });
 
+  // Caso 3 - espacios al principio y al final
+  it('should remove leading and trailing spaces', () => {
+    const str = '   espacios al rededor   ';
+    const expected = 'rededor al espacios';
+    const result = reverseWords(str);
+    expect(result).toBe(expected);
+  });
+
 });
