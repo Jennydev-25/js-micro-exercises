@@ -10,6 +10,4 @@ export function countAnimals(animals) {
   if (noWolves) return `There are ${sheep} sheep in total`;
   if (sheepWin) return `${sheep} sheep escaped!!!`;
   if (wolvesWin) return 'UPS!!! Wolves ate all the sheep';
-
-  return `There are ${sheep} sheep in total`;
 }
