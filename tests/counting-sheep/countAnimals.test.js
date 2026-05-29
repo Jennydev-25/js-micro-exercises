@@ -11,4 +11,12 @@ describe('countAnimals', () => {
     expect(result).toBe(expected);
   });
 
+  // Caso 2 - solo lobos
+  it('should return wolves message when all animals are wolves', () => {
+    const animals = [false, false, false];
+    const expected = 'UPS!!! A pack of hungry wolves';
+    const result = countAnimals(animals);
+    expect(result).toBe(expected);
+  });
+  
 });
