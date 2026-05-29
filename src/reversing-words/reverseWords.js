@@ -1,6 +1,3 @@
 export function reverseWords(str) {
-  const trimmed = str.trim();
-  const words = trimmed.split(' ').filter(word => word !== '');
-  const reversed = words.reverse();
-  return reversed.join(' ');
+  return str.trim().split(' ').filter(word => word !== '').reverse().join(' ');
 }
