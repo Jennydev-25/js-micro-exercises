@@ -83,15 +83,24 @@ El orden sigue estrictamente **TDD**:
 
 ## 📋 Planificación de commits
 
+**Rama `docs/reversing-words`:**
 - `docs`: add reversing-words README with algorithm
 - `docs`: update root README with reversing-words entry
+
+**Rama `feat/reversing-words`:**
 - `test`: add test for basic word reversal
+- `feat`: implement reverseWords basic reversal
+- `refactor`: simplify reverseWords with chained methods
 - `test`: add test for punctuation attached to word
 - `test`: add test for leading and trailing spaces
+- `feat`: add trim to handle leading and trailing spaces
+- `refactor`: chain trim to reverseWords method
 - `test`: add test for multiple spaces between words
+- `feat`: add filter to handle multiple spaces between words
+- `refactor`: chain filter to handle multiple spaces
 - `test`: add test for empty string returns empty string
-- `feat`: implement reverseWords function
-- `refactor`: simplify reverseWords with chained methods
+
+**Rama `docs/reversing-words-screenshots`:**
 - `docs`: add test screenshots to reversing-words README
 
 ---
