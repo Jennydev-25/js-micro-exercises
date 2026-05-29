@@ -121,7 +121,7 @@ Cinco escenarios **BDD** con patrón **AAA** (Arrange · Act · Assert):
 
 | Todos en verde |
 |---|
-| _Pendiente_ |
+| ![Todos en verde](../../assets/imgs/reversing-words/all-tests.png) |
 
 ---
 
