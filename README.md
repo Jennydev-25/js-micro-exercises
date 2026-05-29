@@ -23,6 +23,15 @@ Dada una cadena de texto de longitud arbitraria, determina si contiene la palabr
 
 ---
 
+### 02 · [Reversing Words](./src/reversing-words/)
+
+Dada una cadena de texto, invierte el orden de sus palabras eliminando espacios innecesarios al principio, al final y entre palabras.
+
+- Devuelve las palabras en orden inverso
+- Elimina espacios extra y los reduce a uno solo entre palabras
+
+---
+
 ## 🛠️ Tecnologías
 
 - Git & GitHub
@@ -30,3 +39,7 @@ Dada una cadena de texto de longitud arbitraria, determina si contiene la palabr
 - JavaScript ES Modules
 - Vitest
 - Node.js
+
+---
+
+Desarrollado por [Jenny](https://github.com/Jennydev-25) · Bootcamp Fullstack F5
