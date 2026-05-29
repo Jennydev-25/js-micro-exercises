@@ -27,4 +27,12 @@ describe('reverseWords', () => {
     expect(result).toBe(expected);
   });
 
+  // Caso 4 - multiples espacios entre palabras
+  it('should reduce multiple spaces between words to one', () => {
+    const str = 'Muchos      espacios       intermedios';
+    const expected = 'intermedios espacios Muchos';
+    const result = reverseWords(str);
+    expect(result).toBe(expected);
+  });
+  
 });
