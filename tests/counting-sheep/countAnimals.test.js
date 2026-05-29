@@ -18,5 +18,13 @@ describe('countAnimals', () => {
     const result = countAnimals(animals);
     expect(result).toBe(expected);
   });
-  
+
+// Caso 3 - mas ovejas que lobos
+  it('should return escaped sheep count when sheep outnumber wolves', () => {
+    const animals = [true, true, false];
+    const expected = '2 sheep escaped!!!';
+    const result = countAnimals(animals);
+    expect(result).toBe(expected);
+  });
+
 });
