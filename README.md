@@ -32,6 +32,15 @@ Dada una cadena de texto, invierte el orden de sus palabras eliminando espacios 
 
 ---
 
+### 03 · [Counting Sheep](./src/counting-sheep/)
+
+Dada una lista de booleanos donde `true` es una oveja y `false` es un lobo, devuelve un mensaje segun la cantidad de cada uno.
+
+- Cuenta las ovejas si no hay lobos
+- Avisa si los lobos superan a las ovejas o viceversa
+- Valida que el input sea un array de booleanos
+
+---
 ## 🛠️ Tecnologías
 
 - Git & GitHub
