@@ -27,4 +27,12 @@ describe('countAnimals', () => {
     expect(result).toBe(expected);
   });
 
-});
+// Caso 4 - mas lobos que ovejas
+  it('should return wolves ate sheep message when wolves outnumber sheep', () => {
+    const animals = [true, false, false, false];
+    const expected = 'UPS!!! Wolves ate all the sheep';
+    const result = countAnimals(animals);
+    expect(result).toBe(expected);
+  });
+
+}); 
