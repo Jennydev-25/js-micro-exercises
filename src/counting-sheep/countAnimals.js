@@ -5,17 +5,9 @@ export function countAnimals(animals) {
   const noWolves = wolves === 0;
   const sheepWin = sheep > wolves;
 
-  if (noSheep) {
-    return 'UPS!!! A pack of hungry wolves';
-  }
-
-  if (noWolves) {
-    return `There are ${sheep} sheep in total`;
-  }
-
-  if (sheepWin) {
-    return `${sheep} sheep escaped!!!`;
-  }
+  if (noSheep) return 'UPS!!! A pack of hungry wolves';
+  if (noWolves) return `There are ${sheep} sheep in total`;
+  if (sheepWin) return `${sheep} sheep escaped!!!`;
 
   return `There are ${sheep} sheep in total`;
 }
