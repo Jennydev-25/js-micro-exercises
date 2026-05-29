@@ -35,4 +35,9 @@ describe('countAnimals', () => {
     expect(result).toBe(expected);
   });
 
+// Caso 5 - input no es array
+  it('should throw error when input is not an array', () => {
+    expect(() => countAnimals('hola')).toThrow('Invalid input: list must contain only boolean values');
+  });
+
 }); 
