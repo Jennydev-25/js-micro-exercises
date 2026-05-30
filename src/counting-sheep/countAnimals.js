@@ -1,8 +1,6 @@
 export function countAnimals(animals) {
-  if (!Array.isArray(animals)) throw new Error('Invalid input: list must contain only boolean values');
-
-  const allBooleans = animals.every(animal => typeof animal === 'boolean');
-  if (!allBooleans) throw new Error('Invalid input: list must contain only boolean values');
+  const isInvalid = !Array.isArray(animals) || !animals.every(animal => typeof animal === 'boolean');
+  if (isInvalid) throw new Error('Invalid input: list must contain only boolean values');
 
   const sheep = animals.filter(Boolean).length;
   const wolves = animals.filter(animal => animal === false).length;
