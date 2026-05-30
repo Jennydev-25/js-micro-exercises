@@ -127,7 +127,7 @@ Seis escenarios **BDD** con patron **AAA** (Arrange · Act · Assert):
 
 | Todos en verde |
 |---|
-| _Pendiente_ |
+| ![Todos en verde](../../assets/imgs/counting-sheep/all-tests.png) |
 
 ---
 
