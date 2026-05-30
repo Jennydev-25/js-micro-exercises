@@ -85,7 +85,25 @@ El orden sigue estrictamente **TDD**:
 - `docs`: update root README with counting-sheep entry
 
 **Rama `feat/counting-sheep`:**
-- Por cada escenario: `test:` → `feat:` → `refactor:` (si toca)
+- `test`: add test for only sheep returns total count
+- `feat`: implement countAnimals for only sheep case
+- `refactor`: simplify sheep filter with Boolean
+- `test`: add test for only wolves returns wolves message
+- `feat`: add wolves case when no sheep found
+- `refactor`: extract noSheep condition to readable variable
+- `test`: add test for more sheep than wolves returns escaped count
+- `feat`: add case for more sheep than wolves
+- `refactor`: simplify if blocks and remove curly braces
+- `test`: add test for more wolves than sheep returns wolves message
+- `feat`: add case for more wolves than sheep
+- `refactor`: remove unreachable return statement
+- `test`: add test for non-array input throws error
+- `feat`: add validation for non-array input
+- `refactor`: simplify non-array validation if block
+- `test`: add test for non-boolean values in array throws error
+- `feat`: add validation for non-boolean values in array
+- `refactor`: merge input validations into single condition
+- `docs`: update counting-sheep README with final commits
 
 **Rama `docs/counting-sheep-screenshots`:**
 - `docs`: add test screenshots to counting-sheep README
