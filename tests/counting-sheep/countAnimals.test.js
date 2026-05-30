@@ -40,4 +40,9 @@ describe('countAnimals', () => {
     expect(() => countAnimals('hola')).toThrow('Invalid input: list must contain only boolean values');
   });
 
+// Caso 6 - array con valores no booleanos
+  it('should throw error when array contains non-boolean values', () => {
+    expect(() => countAnimals([true, 'oveja', 42])).toThrow('Invalid input: list must contain only boolean values');
+  });
+
 }); 
